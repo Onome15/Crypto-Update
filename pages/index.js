@@ -3,6 +3,7 @@ import {useState} from 'react';
 import { AiFillGithub } from 'react-icons/ai';
 import { RiLinkedinBoxFill } from 'react-icons/ri';
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Home() {
 	const [page, setPage] = useState(1);
@@ -42,15 +43,16 @@ export default function Home() {
 			</div>
 			<div className="mt-10 grid grid-cols-2 gap-16 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
 				{response &&
-					response.map(news => {
+					response.map((news, index) => {
 						return (
-							<div className="mt-10 grid justify-items-center">
-								<img
+							<div className="mt-10 grid justify-items-center" key={index}>
+								<Image
 									src={news.related_image_big}
 									width="300"
 									length="300"
 									className="rounded-lg"
-								></img>
+									alt = "Image"
+								/>
 								<a
 									className="text-primary text-center hover:text-active transition-colors duation-200"
 									key={news.news_ID}
