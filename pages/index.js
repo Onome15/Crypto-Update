@@ -87,7 +87,7 @@ export default function Home() {
 				</div>
 			)}
 		</div>
-		<footer className="text-center text-primary lg:text-left text-2xl -mx-10 mt-10 pb-4">
+		<footer className="text-center text-primary lg:text-left text-xl -mx-10 mt-10 pb-4">
             <hr className="footer" />
             <div className="text-center p-3">
                 <ul className="flex place-content-center">
