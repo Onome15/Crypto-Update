@@ -23,10 +23,10 @@ export default function Home() {
 	return (
 		<main className='bg-background'>
 		<div className=" flex flex-col relative container font-raleway items-center min-h-screen">
-			<h1 className="text-6xl text-primary font-bold mt-20">
-				Crypto News <span className="text-active">App</span>
+			<h1 className="text-3xl md:text-6xl text-primary font-bold mt-20">
+				Crypto News<span className="text-active">App</span>
 			</h1>
-			<h2 className="text-active text-3xl mt-6 text-center">
+			<h2 className="text-active text-xl  md:text-3xl mt-6 text-center">
 				A Crypto news website that Provides Information about the Crypto Market using Investing Cryptocurrency API
 			</h2>
 			<div className="mt-12 sm:mx-auto justify-center sm:w-full sm:flex">
@@ -62,10 +62,10 @@ export default function Home() {
 											: news.third_party_url
 									}
 								>
-									<h3 className="mt-10 text-2xl">
+									<h3 className="mt-10 text-xl  md:text-2xl">
 										{news.HEADLINE}
 									</h3>
-									<p className="mt-4 text-center text-lg opacity-60">
+									<p className="mt-4 text-center text-md md:text-lg opacity-60">
 										{news.news_provider_name}
 									</p>
 								</a>
@@ -87,7 +87,7 @@ export default function Home() {
 				</div>
 			)}
 		</div>
-		<footer className="text-center text-primary lg:text-left text-xl -mx-10 mt-10 pb-4">
+		<footer className="text-center text-primary lg:text-left text-lg md:-mx-10 -mx-4">
             <hr className="footer" />
             <div className="text-center p-3">
                 <ul className="flex place-content-center">
