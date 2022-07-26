@@ -94,7 +94,7 @@ export default function Home() {
                     <li >
                         <Link href="https://github.com/Onome15" >
                             <a target="_blank" rel="noopener noreferrer">
-                                <AiFillGithub size={20} className='text-green-400' />
+                                <AiFillGithub size={30} className='text-green-400' />
                             </a>
                         </Link>
                     </li>
@@ -102,7 +102,7 @@ export default function Home() {
                     <li >
                         <Link href="https://www.linkedin.com/in/orhero-onome/" >
                             <a target="_blank" rel="noopener noreferrer">
-                                <RiLinkedinBoxFill size={20} className='text-green-400' />
+                                <RiLinkedinBoxFill size={30} className='text-green-400' />
                             </a>
                         </Link>
                     </li>
