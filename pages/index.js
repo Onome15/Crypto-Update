@@ -87,14 +87,14 @@ export default function Home() {
 				</div>
 			)}
 		</div>
-		<footer className="text-center text-primary lg:text-left text-lg md:-mx-10 -mx-4">
+		<footer className="text-center text-primary lg:text-left text-lg">
             <hr className="footer" />
             <div className="text-center p-3">
                 <ul className="flex place-content-center">
                     <li >
                         <Link href="https://github.com/Onome15" >
                             <a target="_blank" rel="noopener noreferrer">
-                                <AiFillGithub size={40} className='text-green-400' />
+                                <AiFillGithub size={20} className='text-green-400' />
                             </a>
                         </Link>
                     </li>
@@ -102,7 +102,7 @@ export default function Home() {
                     <li >
                         <Link href="https://www.linkedin.com/in/orhero-onome/" >
                             <a target="_blank" rel="noopener noreferrer">
-                                <RiLinkedinBoxFill size={40} className='text-green-400' />
+                                <RiLinkedinBoxFill size={20} className='text-green-400' />
                             </a>
                         </Link>
                     </li>
